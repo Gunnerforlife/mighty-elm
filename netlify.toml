@@ -1,3 +1,8 @@
 [build]
 publish = "public"
 command = "npm run build"
+[[redirects]]
+from = "/blog/*"
+to = "https://check-postmeta-10eb.netlify.app/blog/:splat"
+status = 200
+force = true
